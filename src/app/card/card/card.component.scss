@@ -1,0 +1,32 @@
+.contanier{
+    height: 238px;
+    width: 241px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 0px 13px 0px rgba(207,205,207,0.92);
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-img {
+    height: 100px;
+    width: 100px;
+}
+.main-card-title{
+    font-size: 18px;
+    color: #323232;
+}
+
+.sub-card-title{
+    font-size: 14px;
+    color: #12BECC;
+    margin-top: -2px;
+}
