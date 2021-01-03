@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card/card.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule,
